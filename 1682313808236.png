@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>登录 | 马同学</title>
+  
+  <link rel="stylesheet" type="text/css" href=""/>
+  <link rel="stylesheet" type="text/css" href="https://matongxue.oss-cn-hangzhou.aliyuncs.com/static/suit/bootstrap/css/bootstrap.min.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="https://matongxue.oss-cn-hangzhou.aliyuncs.com/static/suit/css/suit.css" media="all">
+  
+    
+
+  
+  <script type="text/javascript">window.__admin_media_prefix__ = "https://matongxue.oss\u002Dcn\u002Dhangzhou.aliyuncs.com/static/admin";</script>
+  <script src="https://matongxue.oss-cn-hangzhou.aliyuncs.com/static/suit/js/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript">var Suit = { $: $.noConflict() }; if (!$) $ = Suit.$; </script>
+  <script src="https://matongxue.oss-cn-hangzhou.aliyuncs.com/static/suit/bootstrap/js/bootstrap.min.js"></script>
+  
+  <style type="text/css">.required:after { content: '*'; margin: 0 0 0 5px; position: absolute; color: #ccc;}</style>
+  
+  
+  
+    <meta name="robots" content="NONE,NOARCHIVE"/>
+</head>
+
+
+<body class="login">
+
+<!-- Sticky footer wrap -->
+<div id="wrap">
+
+  <!-- Container -->
+  
+
+    
+
+        
+
+        
+
+        <div id="content-main">
+            <h1><i class="icon-lock icon-white"></i> 马同学</h1>
+
+            <form action="/admin/login/?next=/admin/matongxue/matex/6858/change/" method="post" id="login-form"><div class="hide"><input type='hidden' name='csrfmiddlewaretoken' value='m8zxuKVWTbW2JpMgwalArBezsTNQXiZ5RUGb15e0SSGhPbpevchK16AWkPBOYPUD' /></div>
+                <div class="form-row control-group">
+                    <label for="id_username" class="control-label required">Union ID:</label> <input type="text" name="username" autofocus required id="id_username" maxlength="254" />
+                  
+                </div>
+                <div class="form-row control-group">
+                    <label for="id_password" class="control-label required">密码:</label> <input type="password" name="password" required id="id_password" />
+                  
+                    <input type="hidden" name="this_is_the_login_form" value="1"/>
+                    <input type="hidden" name="next" value="/admin/matongxue/matex/6858/change/"/>
+                </div>
+                
+                
+                <div class="submit-row">
+                    <input type="submit" value="登录" class="btn btn-info"/>
+                </div>
+            </form>
+
+            <script type="text/javascript">
+                document.getElementById('id_username').focus()
+            </script>
+        </div>
+    
+
+
+  
+  <!-- Sticky footer push -->
+  <div id="push"></div>
+  
+
+</div>
+
+
+  
+  <div id="footer" class="footer">
+    <div class="content">
+      <div class="tools">
+        
+          <a href="http://djangosuit.com/support/" target="_blank" class="icon"><i class="icon-question-sign"></i>Support</a>
+          <a href="http://djangosuit.com/pricing/" target="_blank" class="icon"><i class="icon-bookmark"></i>Licence</a>
+          <a href="http://github.com/darklow/django-suit/issues" target="_blank" class="icon"><i class="icon-comment"></i>Report a bug</a>
+        
+      </div>
+
+      <div class="copyright">
+        
+          Copyright &copy; 2013 DjangoSuit.com<br>Developed by <a href="http://djangosuit.com" target="_blank">DjangoSuit.com</a>
+        
+      </div>
+
+      <div class="branding">
+        
+          马同学
+          
+        
+      </div>
+    </div>
+  </div>
+  
+
+
+  <script src="https://matongxue.oss-cn-hangzhou.aliyuncs.com/static/suit/js/suit.js"></script>
+  
+
+</body>
+</html>
